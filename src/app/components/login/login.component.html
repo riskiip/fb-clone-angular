@@ -1,0 +1,31 @@
+<div class="login-container">
+  <header>
+    <div class="left-header">
+      <img src="../../../assets/fblogo.png" alt="logo">
+      <h2>Facebook helps you connect and share with the people in your life.</h2>
+    </div>
+
+
+    <div class="right-header">
+      <mat-card class="right-header__card">
+        <mat-card-content class="right-header__card__content">
+          <form #form="ngForm" (ngSubmit)="onLogin(form)" class="loginForm">
+            <input type="email" name="email" placeholder="Enter your email or phone number" ngModel required>
+            <input type="password" name="password" placeholder="Password" ngModel required>
+
+            <button type="submit" class="loginButton" [disabled]="form.invalid || form.pending">Log in</button>
+          </form>
+
+          <a href="#">Forgot your account?</a>
+          <button class="registerButton" (click)="onRegister()">Create new account</button>
+        </mat-card-content>
+      </mat-card>
+
+      <p class="tagline"><strong>Create a page</strong> for a celebrity, band or bussiness.</p>
+    </div>
+  </header>
+
+  <footer>
+    <img src="../../../assets/footer.jpeg" alt="footer">
+  </footer>
+</div>
