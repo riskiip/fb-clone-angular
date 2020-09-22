@@ -61,6 +61,7 @@ header {
             padding: 20px;
             outline: none;
             border: 1px solid lightgray;
+            margin-top: 10px;
             border-radius: 5px;
 
             &::placeholder {
@@ -80,6 +81,7 @@ header {
             font-weight: bold;
             cursor: pointer;
             margin-bottom: 20px;
+            margin-top: 10px;
           }
         }
 

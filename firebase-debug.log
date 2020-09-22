@@ -1,0 +1,109 @@
+[debug] [2020-09-22T04:02:21.356Z] ----------------------------------------------------------------------
+[debug] [2020-09-22T04:02:21.358Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\u069118\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login --reauth
+[debug] [2020-09-22T04:02:21.359Z] CLI Version:   8.9.0
+[debug] [2020-09-22T04:02:21.359Z] Platform:      win32
+[debug] [2020-09-22T04:02:21.359Z] Node Version:  v12.18.3
+[debug] [2020-09-22T04:02:21.361Z] Time:          Tue Sep 22 2020 11:02:21 GMT+0700 (Indochina Time)
+[debug] [2020-09-22T04:02:21.361Z] ----------------------------------------------------------------------
+[debug] [2020-09-22T04:02:21.361Z] 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=371046662&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2020-09-22T04:02:31.106Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/4QFDpZzhNRHkrfzYjvRZIXtAEK04S-hpxyqSp-n4pB1_JfXUbTFjDRw4-iQ4EJA87kFAM90u4CNr7omBN8urM6I","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-09-22T04:02:33.129Z] Token Fetch Error: FirebaseError: Server Error. connect ECONNREFUSED 74.125.24.84:443
+    at Request._callback (C:\Users\u069118\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\u069118\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at Request.onRequestError (C:\Users\u069118\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:315:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at TLSSocket.socketErrorListener (_http_client.js:426:9)
+    at TLSSocket.emit (events.js:315:20)
+    at TLSSocket.EventEmitter.emit (domain.js:483:12)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[debug] [2020-09-22T04:02:53.478Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/4QFYAOd8Sw4pOfyBV47O78nLfljAPFspklEyEgoqY2tLwCbo_pySnwGQUnOOqDD5GLW6BiVFz3dXsZ2I-MRNKgg","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-09-22T04:02:55.488Z] Token Fetch Error: FirebaseError: Server Error. connect ECONNREFUSED 74.125.24.84:443
+    at Request._callback (C:\Users\u069118\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\u069118\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at Request.onRequestError (C:\Users\u069118\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:315:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at TLSSocket.socketErrorListener (_http_client.js:426:9)
+    at TLSSocket.emit (events.js:315:20)
+    at TLSSocket.EventEmitter.emit (domain.js:483:12)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[debug] [2020-09-22T04:03:57.460Z] ----------------------------------------------------------------------
+[debug] [2020-09-22T04:03:57.461Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\u069118\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2020-09-22T04:03:57.462Z] CLI Version:   8.9.0
+[debug] [2020-09-22T04:03:57.462Z] Platform:      win32
+[debug] [2020-09-22T04:03:57.462Z] Node Version:  v12.18.3
+[debug] [2020-09-22T04:03:57.463Z] Time:          Tue Sep 22 2020 11:03:57 GMT+0700 (Indochina Time)
+[debug] [2020-09-22T04:03:57.463Z] ----------------------------------------------------------------------
+[debug] [2020-09-22T04:03:57.464Z] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=1032153129&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2020-09-22T04:04:12.987Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/4QHIF3XF_Cm4hkPyoi08Ubzx1E2kv1IpNN6uGyMXyMq9_7E1PPefZT94QTxEPdCOAO_VZSHHBM7OhRzC-HLFoOs","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-09-22T04:04:14.996Z] Token Fetch Error: FirebaseError: Server Error. connect ECONNREFUSED 74.125.24.84:443
+    at Request._callback (C:\Users\u069118\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\u069118\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at Request.onRequestError (C:\Users\u069118\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:315:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at TLSSocket.socketErrorListener (_http_client.js:426:9)
+    at TLSSocket.emit (events.js:315:20)
+    at TLSSocket.EventEmitter.emit (domain.js:483:12)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[debug] [2020-09-22T04:04:29.175Z] ----------------------------------------------------------------------
+[debug] [2020-09-22T04:04:29.176Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\u069118\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2020-09-22T04:04:29.177Z] CLI Version:   8.9.0
+[debug] [2020-09-22T04:04:29.177Z] Platform:      win32
+[debug] [2020-09-22T04:04:29.177Z] Node Version:  v12.18.3
+[debug] [2020-09-22T04:04:29.178Z] Time:          Tue Sep 22 2020 11:04:29 GMT+0700 (Indochina Time)
+[debug] [2020-09-22T04:04:29.178Z] ----------------------------------------------------------------------
+[debug] [2020-09-22T04:04:29.178Z] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=410795790&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2020-09-22T04:04:39.542Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/4QHsE9RLTEJGxqrpm32DuRnMy1VYq0nIE3YCqS0Cssixv8F-eSbDEGFu11XYg1VJfeLi6dT9fuqP-C8BRrdrxWM","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-09-22T04:04:41.552Z] Token Fetch Error: FirebaseError: Server Error. connect ECONNREFUSED 74.125.24.84:443
+    at Request._callback (C:\Users\u069118\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\u069118\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at Request.onRequestError (C:\Users\u069118\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:315:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at TLSSocket.socketErrorListener (_http_client.js:426:9)
+    at TLSSocket.emit (events.js:315:20)
+    at TLSSocket.EventEmitter.emit (domain.js:483:12)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
