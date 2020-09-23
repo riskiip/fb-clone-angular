@@ -9,6 +9,7 @@ import * as firebase from "firebase";
   providedIn: "root",
 })
 export class AuthService {
+  defaultAvatar = 'https://sumeks.co/assets/foto/2020/05/0-superman-M.jpg';
   // tslint:disable-next-line:variable-name
   private _userData: Observable<firebase.User>;
 
@@ -45,12 +46,14 @@ export class AuthService {
     password: string,
     firstName: string,
     lastName: string,
-    avatar = "https://portal.staralliance.com/cms/aux-pictures/prototype-images/avatar-default.png/@@images/image.png"
-  ): void {
+    avatar): void {
     this.afAuth.auth
       .createUserWithEmailAndPassword(email, password)
       .then((res) => {
         if (res) {
+          if (avatar == undefined || avatar == '') {
+            avatar = this.defaultAvatar;
+          }
           this.afs
             .collection("users")
             .doc(res.user.uid)

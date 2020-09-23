@@ -56,9 +56,11 @@ export class LoginComponent implements OnInit, OnDestroy {
     dialogRef.afterClosed().subscribe((res) => {
       const { firstName, lastName, email, password, avatar } = res;
       console.log(res);
-      // if (res != undefined) {
-      //   this.authService.SignUp(email, password, firstName, lastName, avatar);
-      // }
+      if (res != undefined) {
+        this.authService.SignUp(email, password, firstName, lastName, avatar);
+      } else {
+        return;
+      }
     });
     return;
   }

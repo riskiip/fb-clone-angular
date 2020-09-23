@@ -63,8 +63,8 @@
         <div class="home__body__sidebar">
             <div class="inside">
                 <div class="user-avatar">
-                    <img src="../../../assets/kiki.jpg" alt="avatat" mat-card-avatar>
-                    <span class="name">Muhammad Rizki</span>
+                    <img [src]="user?.avatar" alt="avatat" mat-card-avatar>
+                    <span class="name">{{ user?.firstName + user?.lastName }}</span>
                 </div>
                 <div>
                     <mat-icon>local_hospital</mat-icon>
